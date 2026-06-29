@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maha Samruddhi Yojana - Akkalkuwa Dashboard</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb}
+header{background:#0b7a3b;color:#fff;padding:25px;text-align:center}
+nav{background:#0d5db8;padding:10px;text-align:center}
+nav a{color:#fff;text-decoration:none;margin:0 12px;font-weight:bold}
+.container{max-width:1200px;margin:auto;padding:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.1);text-align:center}
+h2{color:#0d5db8}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid #ddd;padding:10px;text-align:center}
+th{background:#0d5db8;color:#fff}
+footer{background:#0b7a3b;color:#fff;text-align:center;padding:15px;margin-top:30px}
+button{padding:10px 16px;border:none;border-radius:5px;background:#0d5db8;color:#fff;cursor:pointer}
+.dark{background:#111;color:#eee}
+.dark .card,.dark table{background:#222;color:#fff}
+.dark th{background:#333}
+</style>
+<script>
+function toggleTheme(){document.body.classList.toggle('dark');}
+</script>
+</head>
+<body>
+<header>
+<h1>🌾 महा समृद्धी योजना</h1>
+<h3>अक्कलकुवा तालुका डॅशबोर्ड</h3>
+<button onclick="toggleTheme()">🌙 Dark / Light</button>
+</header>
+
+<nav>
+<a href="#dashboard">Dashboard</a>
+<a href="#assets">Assets</a>
+<a href="#villages">Villages</a>
+<a href="#reports">Reports</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<section id="dashboard">
+<h2>📊 Dashboard</h2>
+<div class="cards">
+<div class="card"><h3>598</h3><p>एकूण लाभार्थी</p></div>
+<div class="card"><h3>468</h3><p>शेळीपालन</p></div>
+<div class="card"><h3>22</h3><p>कुक्कुटपालन</p></div>
+<div class="card"><h3>16</h3><p>किराणा</p></div>
+<div class="card"><h3>6</h3><p>शिलाई मशीन</p></div>
+<div class="card"><h3>2</h3><p>झेरॉक्स</p></div>
+</div>
+</section>
+
+<section id="assets">
+<h2>📦 व्यवसायनिहाय माहिती</h2>
+<table>
+<tr><th>व्यवसाय</th><th>युनिट</th></tr>
+<tr><td>शेळीपालन</td><td>468</td></tr>
+<tr><td>कुक्कुटपालन</td><td>22</td></tr>
+<tr><td>किराणा दुकान</td><td>16</td></tr>
+<tr><td>शिलाई मशीन</td><td>6</td></tr>
+<tr><td>झेरॉक्स</td><td>2</td></tr>
+</table>
+</section>
+
+<section id="villages">
+<h2>🗺️ गावनिहाय प्रगती</h2>
+<p>येथे पुढे सर्व गावांची माहिती, लाभार्थी व प्रगती जोडता येईल.</p>
+</section>
+
+<section id="reports">
+<h2>📄 Reports</h2>
+<ul>
+<li>Monthly Report</li>
+<li>Annual Report</li>
+<li>Excel Reports</li>
+<li>PPT Presentations</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>📞 संपर्क</h2>
+<p>Email: 9vnath@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/navnath-more-3521201b</p>
+<p>GitHub: github.com/9vnath-creator</p>
+</section>
+
+</div>
+
+<footer>
+© 2026 Maha Samruddhi Yojana - Akkalkuwa Dashboard
+</footer>
+</body>
+</html>
